@@ -30,6 +30,7 @@ preprocessed_crm:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/preprocessed_crm.csv
 
+
 preprocessed_interactions:
   type: pandas.CSVDataSet
   filepath: data/02_intermediate/preprocessed_interactions.csv
@@ -42,12 +43,12 @@ output:
   type: pandas.CSVDataSet
   filepath: data/03_primary/output.csv
 
-output_json:
-  type: pandas.CSVDataSet
+output:
+  type: pandas.JSONDataSet
   filepath: data/03_primary/output.json
 
-output_excel:
-  type: pandas.CSVDataSet
+output:
+  type: pandas.ExcelDataSet
   filepath: data/03_primary/output.xlsx
 
 

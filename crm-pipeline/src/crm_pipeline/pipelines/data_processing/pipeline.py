@@ -7,6 +7,7 @@ from kedro.pipeline import Pipeline, node, pipeline
 
 from .nodes import create_pivot_table, preprocess_crm, preprocess_interactions, preprocess_products
 
+from kedro.io import DataCatalog
 
 def create_pipeline(**kwargs) -> Pipeline:
     return pipeline(
